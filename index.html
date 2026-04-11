@@ -1,17 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>guess number Game </title>
-</head>
-<body>
-    <h1>guess number Game </h1>
-    <form action="number">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>guess number Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="form">
+      <h1>guess number Game</h1>
         <label for="numberGus">put the number:</label>
-        <input type="text" id="input">
-        
-    </form>
-    
-</body>
+        <input type="text" id="input" />
+        <button  onclick="loG()">get</button>
+        <h1 id='result'></h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
