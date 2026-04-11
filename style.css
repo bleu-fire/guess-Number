@@ -33,30 +33,40 @@ body {
 .form h1 {
   padding: 10px;
   margin: auto;
-  background-color: #5276ec;
+  background-color: #7797ff;
   width: 260px;
   border-radius: 10px;
   justify-content: center;
   font-size: medium;
 }
+.form #result {
+  background: none;
+  font-family: "Sekuya", system-ui ;
+  background-color: #7797ff;
+  width: 200px;
+  height: 50px;
+}
 .form label {
   padding: 2px;
-  
   margin: auto;
+  position: relative;
+  top: 90px;
+  left: 140px;
 }
 .form input {
   padding: 6px;
   width: 200px;
   height: 50px;
   position: relative;
-  margin-left: 150px;
+  margin-left: 140px;
   top: 200px;
   display: flex;
-  background-color: green;
-  box-shadow: 1px 0px 50px;
+  background-color: rgb(79, 123, 154);
+  box-shadow: 1px 0px 20px #0ca691;
   border: none;
   border-radius: 20px;
   font-size: 30px;
+  outline: 2px solid rgb(11, 94, 211);
 }
 .form button {
   width: 120px;
@@ -69,4 +79,5 @@ body {
   background-color: #5276ec;
   border: none;
   border-radius: 20px;
+  font-family: "Sekuya", system-ui ;
 }
